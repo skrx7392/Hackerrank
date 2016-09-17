@@ -8,7 +8,7 @@ namespace Hackerrank
 {
     class fairCut
     {
-        static void Main(String[] args)
+        static void FairCut(String[] args)
         {
             String[] line1 = Console.ReadLine().Split(' ');
             int n = int.Parse(line1[0]);
