@@ -50,8 +50,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="repeatedString.cs" />
     <Compile Include="saveprincess.cs" />
+    <Compile Include="StrykerCodeSprint\HiddenMessage.cs" />
+    <Compile Include="StrykerCodeSprint\KthZero.cs" />
     <Compile Include="StrykerCodeSprint\MinimumIndexDifference.cs" />
     <Compile Include="StrykerCodeSprint\PointFiltering.cs" />
+    <Compile Include="WorldCodeSprint7\GridlandMetro.cs" />
+    <Compile Include="WorldCodeSprint7\TwoCharacters.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
