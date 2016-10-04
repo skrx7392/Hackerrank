@@ -8,7 +8,7 @@ namespace Hackerrank.WorldCodeSprint7
 {
     class GridlandMetro
     {
-        static void Main(String[] args)
+        static void gridLandMetro(String[] args)
         {
             int[] line1 = Array.ConvertAll(Console.ReadLine().Trim().Split(' '), int.Parse);
             int n = line1[0];

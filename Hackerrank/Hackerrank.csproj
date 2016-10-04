@@ -44,6 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="101Hack41\AriasLoops.cs" />
+    <Compile Include="101Hack41\LectureNotes.cs" />
+    <Compile Include="30DaysOfCode\2DArrays.cs" />
+    <Compile Include="30DaysOfCode\Arrays.cs" />
+    <Compile Include="30DaysOfCode\BinaryNumbers.cs" />
+    <Compile Include="30DaysOfCode\ClassVsInstance.cs" />
+    <Compile Include="30DaysOfCode\DictionariesAndMaps.cs" />
+    <Compile Include="30DaysOfCode\IntroToConditionalStatements.cs" />
+    <Compile Include="30DaysOfCode\LetsReview.cs" />
+    <Compile Include="30DaysOfCode\Loops.cs" />
+    <Compile Include="30DaysOfCode\Operators.cs" />
+    <Compile Include="30DaysOfCode\Recursion.cs" />
     <Compile Include="Algorithms\minimumDistances.cs" />
     <Compile Include="fairCut.cs" />
     <Compile Include="Job.cs" />
