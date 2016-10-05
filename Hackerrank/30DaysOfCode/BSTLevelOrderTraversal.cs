@@ -6,17 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hackerrank._30DaysOfCode
 {
-    class TreeNode
-    {
-        public TreeNode left, right;
-        public int data;
-        public TreeNode(int data)
-        {
-            this.data = data;
-            left = right = null;
-        }
-    }
-    class BinarySearchTrees
+    class BSTLevelOrderTraversal
     {
         static TreeNode insert(TreeNode root, int data)
         {
@@ -40,7 +30,7 @@ namespace Hackerrank._30DaysOfCode
                 return root;
             }
         }
-        static void binarySearchTrees(String[] args)
+        static void bSTLevelOrderTraversal(String[] args)
         {
             TreeNode root = null;
             int T = Int32.Parse(Console.ReadLine());
@@ -49,20 +39,23 @@ namespace Hackerrank._30DaysOfCode
                 int data = Int32.Parse(Console.ReadLine());
                 root = insert(root, data);
             }
-            int height = getHeight(root);
-            Console.WriteLine(height);
+            levelOrder(root);
 
         }
 
-        static int getHeight(TreeNode root)
+        static void levelOrder(TreeNode root)
         {
-            if(root==null)
+            Queue<TreeNode> bstQueue = new Queue<TreeNode>();
+            bstQueue.Enqueue(root);
+            while(bstQueue.Count>0)
             {
-                return -1;
+                TreeNode node = bstQueue.Dequeue();
+                if(node.left != null)
+                    bstQueue.Enqueue(node.left);
+                if(node.right != null)
+                    bstQueue.Enqueue(node.right);
+                Console.Write(node.data + " ");
             }
-            int leftDepth = getHeight(root.left);
-            int rightDepth = getHeight(root.right);
-            return (leftDepth > rightDepth ? leftDepth : rightDepth) + 1;
         }
     }
 }

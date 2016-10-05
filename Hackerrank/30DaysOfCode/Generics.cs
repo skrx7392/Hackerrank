@@ -8,7 +8,7 @@ namespace Hackerrank._30DaysOfCode
 {
     class Generics
     {
-        static void Main(string[] args)
+        static void generics(string[] args)
         {
             int[] vInt = new int[] { 1, 2, 3 };
             string[] vString = new string[] { "Hello", "World" };

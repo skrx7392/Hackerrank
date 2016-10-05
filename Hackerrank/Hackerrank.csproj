@@ -51,6 +51,7 @@
     <Compile Include="30DaysOfCode\Arrays.cs" />
     <Compile Include="30DaysOfCode\BinaryNumbers.cs" />
     <Compile Include="30DaysOfCode\BinarySearchTrees.cs" />
+    <Compile Include="30DaysOfCode\BSTLevelOrderTraversal.cs" />
     <Compile Include="30DaysOfCode\ClassVsInstance.cs" />
     <Compile Include="30DaysOfCode\DictionariesAndMaps.cs" />
     <Compile Include="30DaysOfCode\Exceptions.cs" />
@@ -62,9 +63,12 @@
     <Compile Include="30DaysOfCode\Linked_List.cs" />
     <Compile Include="30DaysOfCode\Loops.cs" />
     <Compile Include="30DaysOfCode\MoreExceptions.cs" />
+    <Compile Include="30DaysOfCode\MoreLinkedLists.cs" />
+    <Compile Include="30DaysOfCode\NestedLogic.cs" />
     <Compile Include="30DaysOfCode\Operators.cs" />
     <Compile Include="30DaysOfCode\QueuesAndStacks.cs" />
     <Compile Include="30DaysOfCode\Recursion.cs" />
+    <Compile Include="30DaysOfCode\RunningTimeAndComplexity.cs" />
     <Compile Include="30DaysOfCode\Scope.cs" />
     <Compile Include="30DaysOfCode\Sorting.cs" />
     <Compile Include="Algorithms\minimumDistances.cs" />
