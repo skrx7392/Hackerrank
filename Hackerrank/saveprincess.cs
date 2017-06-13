@@ -28,7 +28,7 @@ namespace Hackerrank
             }
         }
 
-        static void Main(String[] args)
+        static void start(String[] args)
         {
             int m;
             m = int.Parse(Console.ReadLine());
